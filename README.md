@@ -1,2 +1,2 @@
 # elevateveda.org
-Elevate Veda — A trusted encyclopedia of knowledge covering history, science, Indian culture, space, technology and health.
+Elevate Veda is a knowledge platform where contributors publish informative articles under their own names and build a lasting public portfolio.
