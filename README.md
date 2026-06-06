@@ -1,2 +1,4 @@
 # elevateveda.org
-Elevate Veda is a trusted knowledge platform where contributors publish informative articles under their own names and build a lasting public portfolio.
+Elevate Veda is a home for curious minds and expert contributors dedicated to neutral, accurate information.
+
+Discover, Learn, and Preserve Ancient & Modern Wisdom – Let's Elevate Veda Grow Together!
