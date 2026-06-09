@@ -205,7 +205,7 @@ footer a:hover{color:var(--g200);}
   <div class="hero">
     <div class="hero-ey">The Trusted Encyclopedia</div>
     <h1>Knowledge that <span>Elevates</span></h1>
-    <p class="hero-sub">Explore millions of articles across science, history, geography, arts, technology and more.</p>
+    <p class="hero-sub">Explore our growing encyclopedia of articles across science, history, geography, arts, technology and more.</p>
   </div>
   <div class="layout">
     <aside class="sidebar">
@@ -614,20 +614,11 @@ function pgSitemap(){
     +"</div>";
 }
 
-function translatePage(lang){
+  function translatePage(lang){
   if(!lang) return;
-  var url = "https://translate.google.com/translate?sl=en&tl="+lang+"&u="+encodeURIComponent(window.location.href);
+  var url = "https://translate.google.com/translate?sl=en&tl="+lang+"&u=https%3A%2F%2Felevateveda.github.io%2Felevateveda.org%2F";
   window.open(url, "_blank");
-  // Reset dropdown
-  document.querySelector(".lbar select").value = "";
-}
-
-function translatePage(lang){
-  if(!lang) return;
-  var url = "https://translate.google.com/translate?sl=en&tl="+lang+"&u="+encodeURIComponent(window.location.href);
-  window.open(url, "_blank");
-  // Reset dropdown
-  document.querySelector(".lbar select").value = "";
+  setTimeout(function(){ document.querySelector(".lbar select").value = ""; }, 500);
 }
 
 // Handle browser back button
