@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elevateveda.github.io/elevateveda.org/sitemap.xml
